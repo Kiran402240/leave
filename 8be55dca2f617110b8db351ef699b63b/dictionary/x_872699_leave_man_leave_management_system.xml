@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="51b8d1422f657110b8db351ef699b6f6" label="Leave Management System" max_length="40" name="x_872699_leave_man_leave_management_system" type="collection">
+        <element attributes="encode_utf8=false" label="Employee" max_length="32" name="employee" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <index name="index">
+            <element name="employee"/>
+        </index>
+    </element>
+</database>
